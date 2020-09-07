@@ -1,0 +1,31 @@
+.jumbotron
+{
+    background-color: black;
+    color: navajowhite;
+}
+
+h1
+{
+    font-size: 60px;
+}
+
+.req
+{
+    color: red;
+}
+
+.side-note
+{
+    font-size: 30px;
+    color: maroon;
+    background-color: peachpuff;
+    padding: 30px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+label
+{
+    font-size: 20px;
+}
+

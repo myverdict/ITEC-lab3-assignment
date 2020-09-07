@@ -1,0 +1,23 @@
+.jumbotron
+{
+    background-color: crimson;
+    color: white;
+}
+
+pre
+{
+    border: 1px solid green;
+    padding: 20px;
+}
+
+.col-md-5
+{
+    font-size: 25px;
+    font-family: "Baskerville Old Face", "Cambria Math", "Times New Roman";
+}
+
+.code-related
+{
+    border: 1px solid maroon;
+    padding: 20px;
+}

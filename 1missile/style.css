@@ -1,0 +1,51 @@
+@keyframes blinker
+{
+    50%
+    {
+        opacity: 0;
+    }
+}
+
+a#real-alert:hover
+{
+    background-color: yellow;
+	color: red;
+	box-shadow: 5px 10px yellow;
+	text-decoration-style: double;
+	border-color: red;
+	padding: 60px;
+	letter-spacing: 7px;
+	font-family: Impact, fantasy;
+	font-size: 50px;
+    animation: blinker .7s linear infinite;
+    animation-iteration-count: 5;
+}
+
+#real-alert
+{
+    color: black;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 20px;
+    font-size: 30px;
+    float: left;
+    box-shadow: 5px 10px black;
+    letter-spacing: 3px;
+    text-decoration: none;
+	font-weight: bold;
+}
+
+#test-only
+{
+    color: darkblue;
+    border: 5px solid blue;
+    padding: 10px;
+    margin: 20px;
+    font-size: 60px;
+    float: right;
+    box-shadow: 5px 10px greenyellow;
+	white-space: pre-wrap;
+	text-decoration: none;
+	text-shadow: 2px 2px greenyellow;
+}
+

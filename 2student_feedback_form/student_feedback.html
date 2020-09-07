@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Feedback Form</title>
+    <!-- Add bootstrap here -->
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+          crossorigin="anonymous">
+    <!-- Add google fonts after the bootstrap and before the css stylesheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@600&family=Lexend+Peta&display=swap" rel="stylesheet">
+    <!-- Add css stylesheet after the bootstrap and font always -->
+    <link rel="stylesheet" href="feedback-style.css" type="text/css">
+</head>
+
+<body class="m-4">
+
+    <div class="jumbotron">
+        <h1>Please provide feedback. You may do so anonymously. Thanks!</h1>
+    </div>
+
+    <div class="row">               <!-- beginning of row -->
+
+        <div class="col-lg-5">      <!-- beginning first of two columns -->
+            <div class="mx-5">
+                <p>
+                    As a student, your feedback is important to us.
+                    Please include a name and your email if you'd like a response.
+                </p>
+            </div>
+        </div>                      <!-- end of first of two columns -->
+
+        <div class="col-md-7">      <!-- beginning second of two columns -->
+            <form class="mx-5">
+                <div>
+                    <!-- Text input for a student's name. -->
+                    <label for="student-name">Name</label>
+                    <input id="student-name" class="form-control" type="text"><br>
+                </div>
+
+                <div>
+                    <!-- Email input for the student's email. -->
+                    <label for="student-email">Email</label>
+                    <input id="student-email" class="form-control" type="email"><br>
+                </div>
+
+                <div>
+                    <!-- Textarea for comments (required). -->
+                    <label>Comments</label>
+                    <textarea class="form-control" required></textarea><br>
+                </div>
+
+                <p>Are you a current student?</p>
+                <!-- Radio buttons for "Are you a current student?." 'Yes' should be selected. -->
+                <div class="form-check">
+                    <input id="current-yes" name="current-student" type="radio" class="form-check-input" checked>
+                    <label for="current-yes" class="form-check-label">Yes</label>
+                </div>
+
+                <div class="form-check">
+                    <input id="current-no" name="current-student" type="radio" class="form-check-input">
+                    <label for="current-no" class="form-check-label">No</label>
+                </div>
+
+                <div>
+                    <input class="input-form btn btn-warning mt-4" type="submit" value="Submit">
+                </div>
+            </form>         <!-- end of form -->
+        </div>              <!-- end of second of two columns -->
+
+    </div>                  <!-- end of row -->
+
+</body>
+
+</html>
