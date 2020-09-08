@@ -9,40 +9,48 @@
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
           crossorigin="anonymous">
+    <!-- Add google fonts after the bootstrap and before the css stylesheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <!-- Add css stylesheet after the bootstrap always -->
     <link rel="stylesheet" href="conference-style.css" type="text/css">
 </head>
 
-<body class="m-5">
+<body class="m-5" id="gradient">
     <div class="jumbotron text-center">
         <h1>Conference Registration Form</h1>
     </div>
 
-    <div class="row">                   <!-- beginning of row -->
-        <div class="col-lg-8">          <!-- beginning of first of second columns -->
-            <form class="mx-5">
-                <div>
+    <div>
+        <p id="side-note">
+            To book a conference room, please fill up the form below.
+        </p>
+    </div>
+
+    <form class="mx-3">                     <!-- beginning of form -->
+        <div class="row">                   <!-- beginning of row -->
+            <div class="col-lg-5">          <!-- beginning of column 1 -->
+                <div>                       <!-- customer name input -->
                     <!-- Text input for customer registrant name (required) -->
                     <label for="customer-name">Name</label>
                     <span class="req">*</span>
                     <input id="customer-name" name="customer-name" class="form-control" type="text" maxlength="70" required><br>
-                </div>
+                </div>                      <!-- end of customer name input -->
 
-                <div>
+                <div>                       <!-- password entered by customer -->
                     <!-- Password input for the customer (required) -->
                     <label for="secret">Password</label>
                     <span class="req">*</span>
                     <input id="secret" name="secret" class="form-control" type="password" required><br>
-                </div>
+                </div>                      <!-- end of password entered by customer -->
 
-                <div>
+                <div>                       <!-- customer email input -->
                     <!-- Customer email (required) -->
                     <label for="cust-email">Email</label>
                     <span class="req">*</span>
                     <input id="cust-email" name="cust-email" class="form-control" type="email" required><br>
-                </div>
+                </div>                      <!-- end of customer email input -->
 
-                <div>
+                <div>                       <!-- t-shirt size input -->
                     <!-- T-shirt size (required) -->
                     <label for="shirt-size">T-shirt size</label>
                     <span class="req">*</span>
@@ -52,17 +60,24 @@
                         <option name="medium" value="Medium">Medium</option>
                         <option name="large" value="Large">Large</option>
                     </select>
-                </div>
-
-                <div>
+                </div>                      <!-- end of t-shirt size input -->
+                <br>
+                <div>                       <!-- customer date of birth -->
                     <!-- Date of birth (required) -->
                     <label for="birth-date">Date of Birth</label>
                     <span class="req">*</span>
                     <input id="birth-date" name="birth-date" class="form-control" type="date" required><br>
-                </div>
+                </div>                      <!-- end of customer date of birth -->
+            </div>                          <!-- end of column 1 -->
 
-                <div>
-                    <p><label>Do you want to receive email from conference sponsors?</label></p>
+            <div class="col-lg-7">          <!-- beginning of column 2 -->
+                <div>                       <!-- email preferences using radio buttons -->
+                    <p>
+                        <label>
+                            Do you want to receive email from conference sponsors?
+                            <span class="req">*</span>
+                        </label>
+                    </p>
                     <!-- Radio buttons for receiving an email. 'Yes' should be selected. (required) -->
                     <div class="form-check">
                         <input id="receive-yes" name="receive" type="radio" class="form-check-input" checked>
@@ -73,11 +88,13 @@
                         <input id="receive-no" name="receive" type="radio" class="form-check-input">
                         <label for="receive-no" class="form-check-label">No</label>
                     </div>
-                </div>
+                </div>                      <!-- end of email preferences using radio buttons-->
 
-                <div>
-                    <br><p><label>Are you attending the morning or afternoon conference sessions?</label></p>
-                    <!-- Checkboxes -->
+                <div>                       <!-- conference time using checkboxes -->
+                    <br>
+                    <p>
+                        <label>Are you attending the morning or afternoon conference sessions?</label>
+                    </p>
                     <div class="form-check">
                         <input id="morn" name="session-time" type="checkbox" class="form-check-input">
                         <label for="morn" class="form-check-label">Morning</label>
@@ -87,29 +104,19 @@
                         <input id="eve" name="session-time" type="checkbox" class="form-check-input">
                         <label for="eve" class="form-check-label">Evening</label>
                     </div>
-                </div>
+                </div>                      <!-- end of conference time using checkboxes -->
 
-                <div>
-                    <!-- Textarea for special requests. -->
+                <div>                       <!-- textarea for special requests -->
                     <br><label>Special requests</label>
                     <textarea rows="7" cols="70" name="spl-request" class="form-control"></textarea><br>
-                </div>
+                </div>                      <!-- end of textarea for special requests -->
 
-                <div>
+                <div>                       <!-- submit button -->
                     <input name="submit" class="input-form btn btn-warning mt-3" type="submit" value="Submit">
-                </div>
-            </form>                     <!-- end of form -->
-        </div>                          <!-- end of first of 2 columns -->
-
-        <div class="col-lg-4">          <!-- beginning of second of 2 columns -->
-            <div class="mx-4 side-note">
-                <p>
-                    To book the conference room, please fill up the form.
-                    We will get back to you as soon as possible. Thank you!
-                </p>
-            </div>
-        </div>                          <!-- end of second of 2 columns -->
-    </div>                              <!-- end of row -->
+                </div>                      <!-- end of submit button -->
+            </div>                          <!-- end of column 2 -->
+        </div>                              <!-- end of row -->
+    </form>                                 <!-- end of form -->
 
 </body>
 

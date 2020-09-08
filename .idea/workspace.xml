@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88c9c62e-f26c-41a7-835e-3b8e14f52b74" name="Default Changelist" comment="" />
+    <list default="true" id="545bddfd-c946-4515-b868-aa545984ddb9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1missile/original_alert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2student_feedback_form/feedback-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/2student_feedback_form/feedback-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2student_feedback_form/student_feedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/2student_feedback_form/student_feedback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4conference_registration_form/conference-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/4conference_registration_form/conference-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4conference_registration_form/conference_registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/4conference_registration_form/conference_registration.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1hC1wmcBZGy5jgxUkrLRUtluDaT" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hFNOD1WkruDS1a9TFb79pYQkRL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -16,17 +26,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="88c9c62e-f26c-41a7-835e-3b8e14f52b74" name="Default Changelist" comment="" />
-      <created>1599500500485</created>
+      <changelist id="545bddfd-c946-4515-b868-aa545984ddb9" name="Default Changelist" comment="" />
+      <created>1599602846108</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1599500500485</updated>
-      <workItem from="1599500501572" duration="725000" />
+      <updated>1599602846108</updated>
+      <workItem from="1599602847693" duration="186000" />
     </task>
     <servers />
   </component>

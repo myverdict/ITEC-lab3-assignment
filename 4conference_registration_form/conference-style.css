@@ -1,31 +1,61 @@
+#gradient
+{
+    background-color: rgb(156,126,100);              /* fallback color */
+    background-image: linear-gradient(#fc466b, #3f5efb);
+}
+
 .jumbotron
 {
-    background-color: black;
-    color: navajowhite;
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 50px;
+    font-family: 'Acme', sans-serif;
 }
 
 h1
 {
-    font-size: 60px;
+    font-size: 50px;
+    letter-spacing: 2px;
 }
 
 .req
 {
-    color: red;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
 }
 
-.side-note
+#side-note
 {
     font-size: 30px;
-    color: maroon;
-    background-color: peachpuff;
-    padding: 30px;
-    border: 2px solid black;
-    margin-top: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    word-spacing: 2px;
 }
 
 label
 {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: white;
 }
 
+input:hover
+{
+    background-color: yellow;
+}
+
+textarea:hover
+{
+    background-color: yellow;
+}
+
+form
+{
+    padding: 20px;
+    margin: 15px;
+    border: 3px solid white;
+}

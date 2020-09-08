@@ -12,3 +12,12 @@ body
     font-weight: bold;
 }
 
+input:hover
+{
+    background-color: yellow;
+}
+
+textarea:hover
+{
+    background-color: yellow;
+}
